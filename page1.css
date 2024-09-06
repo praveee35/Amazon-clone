@@ -1,0 +1,246 @@
+
+
+/*----------page1--------*/
+body{
+   background: #fff;
+}
+.breadcrum{
+   padding: 10px 20px;
+   font-size: 15px;
+   color: #565656; 
+}
+.product-display{
+    min-height: 100%;
+    padding: 10px 20px;
+   display: flex;
+}
+.product-d-img{
+    display: flex;
+    border-radius: 25px;
+    gap: 10px;
+    
+}
+.product-icon{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.product-icon img{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.product-d-details{
+    margin: 0 30px;
+
+}
+.product-tittle{
+    font-size: 25px;
+}
+.brand-store{
+    margin-top: 5px;
+    color: #007185;
+    font-size: 14px;
+}
+.product-ratings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-ratting div{
+   display: flex;
+   align-items: center;
+   gap: 10px; 
+}
+.hell{
+    background:#be0b3b ;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin: 8px 0;
+    font-size: 13px;
+}
+.product-ratting p{
+    color:#007185 ;
+}
+.product-ratting h5{
+    font-weight: 400;
+}
+.product-d-price{
+    display: flex;
+    flex-direction: column;
+    gap: 3px   
+}
+.product-d-price div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:10px 0;
+}
+.product-d-price p{
+    font-size: 19px;
+    color: #c73500;
+    font-style: unset;
+}
+.product-d-price div h1{
+    font-size: 26px;
+    font-weight: 500;
+}
+.product-d-price  h5{
+  color:#565656; 
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.product-d-price p span{
+    color: #007185
+}
+.product-color-selection{
+    margin: 15px 0;
+    cursor: pointer;
+}
+.product-color-options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #cbcbcb;
+    gap: 5px;
+    cursor: pointer;
+}
+.product-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 300px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    gap: 6px;
+
+}
+.product-description h1{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.product-description ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+.product-description li{
+   
+    font-style:calc();
+    font-weight: 500;
+}
+.product-d-purchase{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.product-d-purchase .tittle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-d-purchase .price{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.product-d-purchase .price span{
+   font-size: 26px;
+   padding: 2px;
+
+   
+}
+.product-d-purchase .gap{
+    margin: 15px 0;
+
+}
+.product-d-purchase p span{
+    color: #007185;
+}
+.stock h3{
+    color: green;
+    margin-top: 15px;
+}
+.deli{
+    margin-top: 15px;
+}
+.stock ul{
+    margin-top: 10px;
+    row-gap: 5px;
+}
+.Plans{
+    margin-top: 20px;
+}
+.Plans span{
+    color: #007185;
+}
+.Plans h3{
+      margin-bottom:10px ;
+}
+.Plans li{
+    margin-top: 10px;
+}
+.Quantity input{
+ margin-top: 12px ;
+ width: 45px;
+   
+}
+.Quantity {
+    gap: 2px;
+}
+.btn{
+    margin-top:5px ;
+   outline:none;
+   border: none;
+   background:#ffd814;
+   width: 100%;
+   padding: 10px 0;
+   margin-top: 10px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+.buy{
+
+    outline:none;
+    border: none;
+    background:#ffd814;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 50px;
+     background: #ffa41c;
+     cursor: pointer;
+}
+.Quantity span{
+    color: #007185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.jbl{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 12px;
+}
+.Click{
+    color: #007185;
+    font-size: 10px;
+}
+.h3{
+  margin-left: 15px;
+}
+
